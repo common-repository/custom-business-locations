@@ -1,0 +1,35 @@
+
+/*----------------------------------------------------------
+                    The Setup
+----------------------------------------------------------*/
+     /* Compass */
+     @import "compass";
+     @import "compass/css3";
+
+     /* Foundation Settings */
+     @import "settings";
+
+
+/*----------------------------------------------------------
+                    The Styles
+----------------------------------------------------------*/
+
+.cbl-shortcode-wrap {
+    @import "foundation/components/global";
+    @import "foundation/components/grid";
+    @import "foundation/components/visibility";
+    @import "foundation/components/type";
+    @import "foundation/components/buttons";
+    @import "foundation/components/section";
+    @import "foundation/components/alert-boxes";
+    @import "foundation/components/panels";
+    @import "foundation/components/tables";
+
+    #cbl-map-canvas,
+    .cbl-map-canvas {
+        img,
+        embed,
+            object { max-width: none !important;
+        }
+    }
+}
